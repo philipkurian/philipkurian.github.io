@@ -5,6 +5,10 @@ categories: [ Testing ]
 image: assets/images/10.jpg
 tags: [sticky]
 ---
+
+Computer programming had been around us for more than a century and so had been the bugs. When we think about quality, we are not limited to just finding and fixing the bugs in the program. The thinking has to broaden in such a way that, we are ensuring 
+
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

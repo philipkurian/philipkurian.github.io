@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Options for creating a new site with Jekyll"
+title:  "Action classes pattern in automation"
+description: "Automation design pattern using action classes"
 author: jane
 categories: [ Jekyll, tutorial ]
 image: assets/images/13.jpg

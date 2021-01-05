@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor - one"
+title:  "Imperative vs Declarative step definitions"
+description: "Correct way of writing BDD steps"
 author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/4.jpg
