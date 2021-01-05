@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Red Riding Hood"
+title:  "Design patterns in software"
+description: "What are design patterns and how to use them in automation"
 author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg

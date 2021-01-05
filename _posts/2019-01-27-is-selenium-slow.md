@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Tree of Codes"
-description: "This description describe about tree of codes "
+title:  "Is Selenium slow?"
+description: "Why do you feel selenium is slow?"
 author: philip
 categories: [ Automation, Java ]
 image: assets/images/2.jpg

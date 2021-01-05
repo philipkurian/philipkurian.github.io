@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "The first mass-produced book to deviate from a rectilinear format"
+title:  "Automation reporting frameworks"
+description: "Options to report your test results"
 author: philip
 categories: [ tutorial ]
 image: assets/images/17.jpg

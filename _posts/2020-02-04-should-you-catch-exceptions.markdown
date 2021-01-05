@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Wish you a happy new year"
+title:  "Should you handle your exceptions with test automation"
+description: "Proper use of exception handling in test automation"
 categories: [ Testing ]
 image: assets/images/10.jpg
 ---

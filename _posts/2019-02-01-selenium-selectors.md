@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Education must also train one for quick, resolute and effective thinking."
+title:  "What are selenium selectors and how to use them"
+description: "Correct use of selenium selectors"
+author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg
 ---

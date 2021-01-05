@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "We all wait for summer"
+title:  "Why you should not create your own automation framework"
+description: "Is it good to create your own automation framework?"
 author: jane
 categories: [ Jekyll, tutorial ]
 image: assets/images/1.jpg
