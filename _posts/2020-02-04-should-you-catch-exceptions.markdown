@@ -1,26 +1,54 @@
 ---
 layout: post
-title:  "Should you handle your exceptions with test automation"
+title:  "Should you handle your exceptions with test automation?"
 description: "Proper use of exception handling in test automation"
+author: philip
 categories: [ Testing ]
 image: assets/images/10.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Should you wrap your test methods in a try catch statement and handle or throw the exceptions? 
 
-Jekyll also offers powerful support for code snippets:
+You should not. I will tell you why. Consider the example below. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+```java
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+  public void userLogin(String userName, String password){
+    try{
+      driver.findElement(By.id("userName")).sendKeys(userName);
+      driver.findElement(By.id("password")).sendKeys(password);
+      driver.findElement(By.id("submitButton")).click();
+    } catch(Exception e){
+      e.printStackTrace();
+    }
+  }
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+  ```
+
+  The problem here is that the exception can happen with any of the above three driver actions and even though you will get a stack trace of the error printed, your test will continue as nothing happened and fail at the next stage. So the actual failure point will be different and you will get a different error message unless you stop and read the previous error message from the stack trace. 
+
+  Next one is a rethrow of the actual error. Sometimes people do it to add more information. 
+
+
+  ```java
+
+  public void userLogin(String userName, String password){
+    try{
+      driver.findElement(By.id("userName")).sendKeys(userName);
+      driver.findElement(By.id("password")).sendKeys(password);
+      driver.findElement(By.id("submitButton")).click();
+    } catch(Exception e){
+      e.printStackTrace();
+      throw new RunTimeException("Error with userLogin");
+    }
+  }
+
+``` 
+
+Though this is better than the previous example, you have to look back at the stack trace error message to find the actual cause of failure. Imagine the situation if you decide not to print the stack trace message and you will never find the real error. 
+
+So it is better not to catch the exceptions and let the error be thrown whenever it happens. Your code is not production code. Let if fail when there is an error and that's how automation testing works. 
+
+
+
+
