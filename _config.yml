@@ -4,9 +4,9 @@ description: 'You can find quality articles about software testing and test auto
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
-email: 'f/mleoarzz'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: 'qualitytimes-tech'
+email: 'qualitytimestechs@gmail.com'
+mailchimp-list: 'https://tech.us7.list-manage.com/subscribe/post?u=b2e1fe1f9d06371e2cba52f4d&amp;id=43b8bef90e'
 
 include: ["_pages"]
 permalink: /:title/
