@@ -5,7 +5,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 disqus: 'qualitytimes-tech'
-email: 'qualitytimestechs@gmail.com'
+email: 'f/mleoarzz' #contact form email
 mailchimp-list: 'https://tech.us7.list-manage.com/subscribe/post?u=b2e1fe1f9d06371e2cba52f4d&amp;id=43b8bef90e'
 
 include: ["_pages"]
@@ -34,7 +34,7 @@ authors:
       bio:            "Blogger, Tech Enthusiast, love to explore new ideas and write on my morning coffee!"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com
-      
+
 # Defaults
 defaults:
 
