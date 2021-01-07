@@ -21,20 +21,20 @@ plugins:
 authors:
     philip:
       name:           Philip
-      site:           https://philipkurian.github.io
+      site:           https://qualitytimes.tech
       avatar:         assets/images/avatar1.jpg
       bio:            "Test Automation Architect/ Developer/ Lead"
       email:          philipkurian.nz@gmail.com
       linkedIn:        https://www.linkedin.com/in/kurianphilipk/
 
     jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
+      name:           Phoenix
+      site:           https://qualitytimes.tech
       avatar:         assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      bio:            "Blogger, Tech Enthusiast, love to explore new ideas and write on my morning coffee!"
       email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
+      twitter:        https://twitter.com
+      
 # Defaults
 defaults:
 
@@ -43,7 +43,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: philipo
       avatar: /assets/images/avatar1.jpg
       
   # all pages
