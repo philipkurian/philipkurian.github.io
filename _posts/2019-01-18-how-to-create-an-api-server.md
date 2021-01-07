@@ -2,7 +2,7 @@
 layout: post
 title:  "How to create an API server in 30 Seconds"
 description: "You can create your own server in thirty seconds"
-author: jane
+author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/11.jpg
 tags: automation
