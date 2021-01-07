@@ -1,11 +1,11 @@
 # Site
 name: 'Quality Times'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+description: 'You can find quality articles about software testing and test automation'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 disqus: 'demowebsite'
-email: 'philipkurian.nz@gmail.com'
+email: 'f/mleoarzz'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -19,21 +19,21 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    philip:
       name:           Philip
       site:           https://philipkurian.github.io
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+      bio:            "Test Automation Architect/ Developer/ Lead"
       email:          philipkurian.nz@gmail.com
       linkedIn:        https://www.linkedin.com/in/kurianphilipk/
 
-    # jane:
-    #   name:           Jane
-    #   site:           https://www.wowthemes.net
-    #   avatar:         assets/images/avatar2.jpg
-    #   bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-    #   email:          fakemail@gmail.com
-    #   twitter:        https://twitter.com/wowthemesnet
+    jane:
+      name:           Jane
+      site:           https://www.wowthemes.net
+      avatar:         assets/images/avatar2.jpg
+      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:

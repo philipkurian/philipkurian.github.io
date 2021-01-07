@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Quick Start Guide"
-author: sal
+title:  "Why should you run your tests in parallel"
+description: "The importance of running tests in parallel"
+author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg
+tags: [automation]
 ---
 
 If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:

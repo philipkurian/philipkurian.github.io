@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Accumulated experience of social living"
-author: sal
+title:  "The myth of 100% automation"
+description: "Is it possible to do 100% automation"
+author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/15.jpg
 ---

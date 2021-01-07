@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "About Bundler"
-author: sal
+title:  "Design patterns in test automation"
+description: "Explore various automation design patterns"
+author: philip
 categories: [ Jekyll ]
 image: assets/images/2.jpg
 ---

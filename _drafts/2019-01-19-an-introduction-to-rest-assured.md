@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Markdown Example"
+title:  "An introduction to Rest Assured"
+description: "How to use Rest Assured for API tests"
 author: jane
 categories: [ Jekyll, tutorial ]
 image: assets/images/6.jpg

@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Press and education"
-author: sal
+title:  "Data driven automation"
+description: "How to leverage automation using data"
+author: philip
 categories: [ Jekyll, tutorial ]
 image: assets/images/7.jpg
 ---

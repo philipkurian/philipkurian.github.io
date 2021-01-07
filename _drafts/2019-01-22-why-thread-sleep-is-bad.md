@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Never stopped worrying or loving the bomb"
-author: sal
+title:  "Why Thread Sleep is bad"
+description: "Why should you not use thread sleep in automation"
+author: philip
 categories: [ Jekyll ]
 image: assets/images/14.jpg
 tags: featured

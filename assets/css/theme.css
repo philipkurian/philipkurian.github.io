@@ -633,6 +633,25 @@ ol.list-featured li:before {
     line-height: 1;
     opacity: .1;
 }
+ol.list-highlight {
+	counter-reset:my-awesome-counter;
+	list-style:none;
+	padding-left:0;
+}
+ol.list-highlight li {
+	counter-increment:my-awesome-counter;
+	display:flex;
+	font-size: 1rem;
+}
+ol.list-highlight li:before {
+    content: "0" counter(my-awesome-counter);
+    /* font-weight: bold; */
+    font-size: 1rem;
+    margin-right: 0.75rem;
+    font-family: Arial;
+    line-height: 1;
+    opacity: .5;
+}
 .catlist .sep:last-child {
 	display:none;
 }
@@ -653,7 +672,7 @@ footer {
 }
 article {
 	font-size:20px;
-	line-height:1.86;
+	line-height:1.6;
     font-family:Lora;
 }
 .article-headline {
