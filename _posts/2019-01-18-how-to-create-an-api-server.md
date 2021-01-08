@@ -4,8 +4,8 @@ title:  "How to create an API server in 30 Seconds"
 description: "You can create your own server in thirty seconds"
 author: philip
 categories: [ Jekyll, tutorial ]
-image: assets/images/11.jpg
-tags: automation
+image: assets/images/apiserverinthirtysec.jpg
+tags: [automation, featured]
 ---
 
 If you need an API server for your test or development purpose, 'json-server' is an excellent option to get your mock data uploaded and available in no time. 
