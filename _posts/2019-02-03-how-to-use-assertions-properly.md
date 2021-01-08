@@ -4,8 +4,8 @@ title:  "How to use your assertions properly?"
 description: "Discussion about proper use of assertions"
 author: philip
 categories: [ Selenium]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
-tags: [automation]
+image: assets/images/assertions.jpg
+tags: [automation, featured]
 ---
 
 If your automation test doesn't contain assertions there is no point in running it. It is just a dud. 

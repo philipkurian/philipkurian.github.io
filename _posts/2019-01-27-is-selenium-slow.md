@@ -4,8 +4,8 @@ title:  "Is Selenium slow?"
 description: "Why do you feel selenium is slow?"
 author: philip
 categories: [ Automation, Java ]
-image: assets/images/2.jpg
-tags: automation
+image: assets/images/slowselenium.jpg
+tags: [automation, featured]
 ---
 
 Selenium is a browser automation tool and it is incredibly fast. But I have seen a lot of automation tests running terribly slow. It is ironic that all these slowness is being caused by incorrect attempt from automation engineers trying to tame the speed of Selenium. 

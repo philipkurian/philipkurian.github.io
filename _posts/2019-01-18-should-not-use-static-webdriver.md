@@ -5,7 +5,7 @@ description: "An article about using static WebDriver with Selenium"
 author: philip
 categories: [ Selenium, WebDriver]
 image: assets/images/staticvsinstant.jpeg
-tags: [automation]
+tags: [automation, featured]
 ---
 
 During the initial stages of my automation learning, one of the first mistakes I did was using a static WebDriver. It seemed to be easy to go with static drivers as I didn't have to bother with class extension or dependency injections. I knew static was bad, but then thought, I will deal with it later.

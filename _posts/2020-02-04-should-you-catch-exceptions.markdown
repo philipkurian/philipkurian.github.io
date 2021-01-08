@@ -4,7 +4,7 @@ title:  "Should you handle your exceptions with test automation?"
 description: "Proper use of exception handling in test automation"
 author: philip
 categories: [ Testing ]
-image: assets/images/10.jpg
+image: assets/images/exceptionstrycatch.jpg
 ---
 
 Should you wrap your test methods in a try catch statement and handle or throw the exceptions? 
