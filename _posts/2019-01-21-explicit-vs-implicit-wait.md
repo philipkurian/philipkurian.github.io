@@ -12,3 +12,5 @@ Explicit or Implicit, whichever wait you are using, be careful not to mix them u
 
 Implicit wait would cause a delayed start and generally advised not to be used. Also different browsers implement implicit wait in different ways and a consistent performace is not guaranteed. 
 
+There is no surprise if your automation is running terribly slow if you mix these two different types of waits together
+

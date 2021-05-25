@@ -30,6 +30,9 @@ If static WebDriver is bad, what are the other options? Let's explore a few.
 
 Scary it may sound, but dependency injection is quite simple in concept. A dependeny injection framework will initiate an instance of a class and supply the same instance to all the classes where it is called. This would eliminate the tight coupling between classes and the whole relations with classes become quite simple to maintain. 
 
+A good example is cucumber [picocontainer](http://picocontainer.com/introduction.html){:target="_blank"}
+
+
 ##### Option two: Class extension
 
 With this option, you just extend a class containing the WebDriver and make use of the driver in the parent class. This would be a less than ideal solution of dependency injection as there would be a direct relationship with the driver class and the sub class where is being used. 
