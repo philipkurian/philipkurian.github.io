@@ -14,7 +14,7 @@ Selenium is a browser automation tool and it is incredibly fast. But I have seen
 
 Unless you tell Selenium to wait for an element, it won't and your automation test would fail with an exception. So how do you tell Selenium to wait?
 
-#####  Thread Sleep - The ugly way
+> #####  Thread Sleep - The ugly way
 
 This is a static wait. You are stopping the execution thread for a particular amount of time. 
 Lets say you put 5 seconds sleep time and suddenly your tests are passing. That particular element which always caused problem for you is no longer a worry. Your script waits for five seconds and Selenium identifies the element and your test is working fine. 
